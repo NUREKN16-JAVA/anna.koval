@@ -7,6 +7,7 @@ import java.time.LocalDate;
 import java.time.Period;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
+import java.util.Calendar;
 import java.util.Date;
 import  java.time.temporal.ChronoUnit;
 import java.util.Objects;
@@ -17,8 +18,14 @@ public class User implements Serializable{
     private String firstName;
     private String lastName;
     private Date dateOfBirth;
-    
-    
+    //constructor
+    public User() {
+        super();
+        this.id = 0L;
+        this.firstName = "";
+        this.lastName = "";
+        this.dateOfBirth = Calendar.getInstance().getTime();
+    }
 
     public Long getId() {
         return id;
@@ -78,14 +85,14 @@ public class User implements Serializable{
                 ", dateOfBirth=" + dateOfBirth +
                 '}';
     }
-
+    //get full name
     public String getFullName () {
         return new StringBuilder(getLastName())
                 .append(", ")
                 .append(getFirstName())
                 .toString();
     }
-
+    //get age
     public long getAge(){
         SimpleDateFormat simdatf=new SimpleDateFormat("dd-MM-yyyy");
         DateTimeFormatter dattime = DateTimeFormatter.ofPattern("dd-MM-yyyy");

@@ -14,7 +14,6 @@ public class UserTest {
     private static final String LAST_NAME_ETALONE="Koval";
     private static final String FULL_NAME_ETALONE="Koval, Anna";
 
-   // private static final int CURRENT_YEAR=2018;
     private static final int YEAR_OF_BIRTH=1999;
     private static final int ETALONE_AGE=19;
     private static final int DAY_OF_BIRTH=24;
@@ -52,6 +51,7 @@ public class UserTest {
         user.setDateOfBirth(calendar.getTime());
         assertEquals(ETALONE_AGE+1, user.getAge());
     }
+    // when birthday will be next day
     @Test
     public void testDayBeforeBirth()
     {
@@ -60,6 +60,7 @@ public class UserTest {
         user.setDateOfBirth(calendar.getTime());
         assertEquals(ETALONE_AGE-1, user.getAge());
     }
+    // when birthday was two days ago
     @Test
     public void testTwoDayBeforeBirth()
     {
