@@ -1,0 +1,6 @@
+#Sat Dec 01 20:05:17 EET 2018
+__DEFAULT__=false
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.sdk.Google.master=true
+org.eclipse.help.ui.localSearch.master=true
+expression=class path

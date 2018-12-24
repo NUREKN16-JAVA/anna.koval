@@ -1,0 +1,8 @@
+1544425172507	Rename method 'getDayOfBirthField'
+1544532359483	Extract local variable 'currentId'
+1544551514831	Extract method 'initTable'
+1544559075039	Delete element
+1544692972529	Move compilation unit
+1544695350634	Extract local variable 'firstName'
+1544695370934	Extract local variable 'lastName'
+1544695419104	Extract local variable 'now'

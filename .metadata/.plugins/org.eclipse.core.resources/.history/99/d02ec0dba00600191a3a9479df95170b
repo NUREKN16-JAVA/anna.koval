@@ -1,0 +1,9 @@
+package ua.nure.kn.koval.usermanagement.web;
+
+public class EditServletTest extends MockServletTestCase {
+
+	protected void setUp() throws Exception {
+		super.setUp();
+	}
+
+}
