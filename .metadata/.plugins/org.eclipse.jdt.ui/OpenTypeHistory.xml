@@ -2,4 +2,7 @@
 <typeInfoHistroy>
 <typeInfo handle="=usermanagement/src\/test\/java&lt;ua.nure.kn.koval.usermanagement.web{MockServletTestCase.java[MockServletTestCase" modifiers="1025" timestamp="1545072982435"/>
 <typeInfo handle="=usermanagement/lib\/servlet-api.jar&lt;javax.servlet.http(HttpServlet.class[HttpServlet" modifiers="1057" timestamp="1093712540000"/>
+<typeInfo handle="=usermanagement/lib\/jade.jar&lt;jade.core(Agent.class[Agent" modifiers="33" timestamp="1545299179432"/>
+<typeInfo handle="=usermanagement/lib\/jade.jar&lt;jade.core.behaviours(Behaviour.class[Behaviour" modifiers="1057" timestamp="1545299179432"/>
+<typeInfo handle="=usermanagement/lib\/jade.jar&lt;jade.core.behaviours(CyclicBehaviour.class[CyclicBehaviour" modifiers="1057" timestamp="1545299179432"/>
 </typeInfoHistroy>

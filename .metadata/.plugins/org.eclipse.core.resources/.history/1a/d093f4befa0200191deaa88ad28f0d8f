@@ -1,7 +1,0 @@
-package ua.nure.kn.koval.usermanagement.web;
-
-import javax.servlet.http.HttpServlet;
-
-public class BrowseServlet extends HttpServlet {
-
-}

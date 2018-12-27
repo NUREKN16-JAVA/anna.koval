@@ -45,16 +45,4 @@ public class MockUserDao implements UserDao {
 		return users.values();
 	}
 
-	@Override
-	public User findAll() throws DatabaseException {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Collection find(String firstName, String lastName) throws DatabaseException {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 }

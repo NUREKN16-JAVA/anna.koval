@@ -103,3 +103,13 @@ org.eclipse.core.runtime.CoreException: Launch configuration Demo references non
 2018-12-23 21:43:40,541 [Worker-65: Launching AddServletTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
 2018-12-23 21:43:40,558 [Worker-65: Launching AddServletTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2018-12-24 08:15:06,646 [Worker-5: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-12-25 15:04:31,201 [Worker-3: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-12-25 15:35:39,430 [Worker-23: Launching Jade] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-25 15:35:39,470 [Worker-23: Launching Jade] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-25 15:35:39,551 [Worker-23: Launching Jade] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-25 15:35:39,606 [Worker-23: Launching Jade] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-25 15:35:39,615 [Worker-23: Launching Jade] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-25 22:47:10,790 [Worker-7: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-12-26 12:43:06,008 [Worker-8: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-12-27 16:03:47,737 [Worker-5: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-12-27 16:38:35,885 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
